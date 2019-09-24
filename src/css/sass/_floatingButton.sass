@@ -1,0 +1,29 @@
+@import _colors.sass
+    
+.btn-floating
+    width: 70px
+    height: 70px
+    border-radius: 100%
+    background: $orange-color
+    right: 0
+    bottom: 0
+    position: absolute
+    margin-right: 50px
+    margin-bottom: 50px
+    border: none
+    outline: none
+    color: $white-color
+    font-size: 36px
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    transition: .3s  
+
+span
+    transition: .2s  
+
+.btn-floating:hover span
+    transform: rotate(360deg)
+
+.btn-floating:active
+    transform: scale(1.2)
+
+
